@@ -6,3 +6,8 @@ function uu()
         console.log('*');
     }
 }
+function tow()
+{
+    console.log("Bye....!");
+    
+}
