@@ -1,0 +1,186 @@
+
+
+*
+{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+img
+{
+    padding:18px  ;
+    align-items: center;
+}
+#header 
+{
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    position: sticky;
+    height: 60px;
+    background-color: rgb(224, 224, 224);
+}
+#nav-bar
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nav-bar a
+{
+    margin: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+/* nav a
+{
+    font-size: 18px;
+    margin:15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+} */
+body
+{
+    background-color: rgb(224, 224, 224);
+    margin: 0px;
+    padding: 0px;
+}
+/* #her
+{
+    width: 700px;
+    text-align: center;
+    height: 200px;
+    margin: auto; 
+} */
+h1
+{
+    padding: 0px;
+    margin:0px;
+}
+#email
+{
+    /* margin:5px; */
+    width: 300px;
+    height: 30px;
+}
+#submit
+{
+    margin:10px;
+    width: 200px;
+    height: 30px;
+}
+button
+{
+    margin:10px;
+    width: 200px;
+    height: 30px;
+}
+.grid
+{
+    flex-direction: row;
+    display:flex;
+}
+.gridd
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.grid >div
+{
+    margin: 20px;
+}
+iframe
+{
+    /* width: 750px; */
+    height: 450px;
+}
+@media(max-width:800px)
+{
+    .grid
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gridd
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* flex-wrap: wrap; */
+    }
+    #header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-bar
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #header
+    {
+        position: relative;
+        height: 200px;
+    }
+    #nav-bar a
+    {
+        margin: 10px;
+
+    }
+}
+section a
+{
+    padding-right: 10px;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+#pricing
+{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width:800px) {
+    #pricing
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        justify-content: space-around;
+        /* padding: 20px; */
+    } 
+}
+.fly
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:stretch;
+}
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+#Features
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
