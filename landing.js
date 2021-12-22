@@ -8,6 +8,11 @@ function uu()
 }
 function tow()
 {
-    console.log("Bye....!");
-    
+    console.log("Bye....!");  
+}
+
+function Dog(name)
+{
+    this.name=name;
+    this.numLegs=4;
 }
