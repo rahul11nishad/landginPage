@@ -8,3 +8,14 @@ function Home(location,color,price)
 }
 let ne=new Home("Delhi","blue",4501242);
 console.log(ne.price);
+
+// Define a consturtor function ------------->
+function Bird()
+{
+    this.name="Albert";
+    this.color="blue";
+    this.numLegs=2;
+}
+// use a consturtor to create Objects
+let blueBird=new Bird();
+console.log(blueBird.name);
